@@ -1,6 +1,6 @@
-# CSUCI-COMP150-Example-Java-Code
+# Example Java Code from "Intro to Programming" course
 
-Example homework and exam from my "Intro to Java" university course at Cal State Channel Islands, Winter 2016.
+Example homework and exam from my "Introduction to Object-Oriented Programming" (Java) university course at California State University at Channel Islands, Winter 2016.
 
 (c) Justin P. Pearson 2016. All rights reserved.
 

@@ -1,4 +1,4 @@
-==================
+
 COMP 150, Exam 5 
 ==================
 
@@ -8,6 +8,7 @@ COMP 150, Exam 5
 
 
 Instructions:
+-----------------
 
 - This file is meant to be viewed in a text editor like Notepad++, Wordpad, or Sublime Text.
 	- NOT Notepad: It doesn't show newlines right.
@@ -36,9 +37,9 @@ Instructions:
 
 
 
-==========================================
-(50 points) Hardware Store Inventory.
-==========================================
+
+Hardware Store Inventory. (50 points)
+---------------------------------------
 
 The file `HardwareStore.java` is provided. You'll edit this file in places marked "Your code here".
 
@@ -74,14 +75,14 @@ Note: Suppose you have an Item object named 'my_item' and you want to check whet
     }
 
 
-Submit HardwareStore.java.
+Submit `HardwareStore.java`.
 
 
 
 
-==========================================
-(50 points) City Map
-==========================================
+
+City Map (50 points)
+----------------------
 
 
 In this problem, we will draw a map of 50 cities in the United States.
@@ -91,13 +92,13 @@ The file CityMap.java is provided. You'll edit this file and submit it.
 The 'main' function and the 'DrawPanel' class are both given to you -- you should not have to edit them. However, when you are working on Part A, you may find it useful to comment out parts of 'main' that require your solution to Part B and C. 
 
 
----------------------------
-Part A (15 points)
----------------------------
+
+### Part A (15 points)
+
 
 Write an interface called Drawable, that declares the presence of the following method:
 
-void draw( Graphics g );
+    void draw( Graphics g );
 
 Write a class LabeledPoint, which you can use to draw labeled points:
 
@@ -121,9 +122,9 @@ In 'main' part A, we declare two LabeledPoint objects and draw them.
 If the LabeledPoint class is working properly, the "Part A" code in main should draw a picture like "CityMap-Part-A.png".
 
 
----------------------------
-Part B (15 points)
----------------------------
+
+### Part B (15 points)
+
 
 In this part, we'll add code that draws the cities on the map.
 
@@ -165,9 +166,9 @@ If the City class is working properly, the "Part B" code in main should draw a p
 
 
 
------------------------------
-Part C (20 points)
------------------------------
+
+### Part C (20 points)
+
 
 Define a class Itinerary, which holds a list of Cities that we intend to visit on a vacation.
 

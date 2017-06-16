@@ -1,36 +1,36 @@
-====================
+
 COMP 150, Lab 10c
 ====================
 
 Due noon on Tues Apr 26, 2016.
 
 
-=============================================
-(60 points) Sorting cities.
-=============================================
+
+Sorting cities. (60 points)
+------------------------------
 
 
 The file SortCities.java is attached.
 
--------------------------
-Part A (20 points)
--------------------------
+
+### Part A (20 points)
+
 
 Make a `City` class with relevant fields (name, population, etc). Read the `CITY_NAMES` and `CITY_DATA` arrays into a list of `City` objects. 
 
 `City` should implement `toString`, so that you can `println` it nicely.
 
 
--------------------------
-Part B (20 points)
--------------------------
+
+### Part B (20 points)
+
 
 Have City implement Comparable<City> so that sorting the list sorts the cities according to their "yearly salary after subtracting 12 months of rent".
 
 
--------------------------
-Part C (20 points)
--------------------------
+
+### Part C (20 points)
+
 
 Write static Comparators for City named SalarySort and PostRentSalarySort to make it easy to sort the list based on different criteria: the raw salary, and the salary after subtracting 12 months of rent.
 
@@ -41,9 +41,9 @@ The code in SortCities.java should guide your code's development.
 
 
 
-=============================================
-(120 points) Robot simulation.
-=============================================
+
+## Robot simulation. (120 points)
+
 
 
 The file RobotSimulation.java is provided.
