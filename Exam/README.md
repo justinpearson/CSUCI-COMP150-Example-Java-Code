@@ -157,7 +157,7 @@ This way, one can easily load the cities into a list like this:
 The attached file "cities_xy_nospaces.tsv" contains the name, coordinates, and population of the 50 biggest cities in the US. The coordinates are not latitude / longitude; they are pixel coordinates for placement on a 1000-by-600 JFrame. But they are roughly spatially correct: New York is in upper-right, Los Angeles is in lower-left. 
 
 
-Note: For ease of scanning, "cities_xy_nospaces.tsv" has underscores in city names: "New_York", etc. This makes it easier for you; otherwise Scanner.next() would choke on the spaces. However, when copying that name into your City object, you should replace the underscores with spaces. The `String` class has a `replace` method that you can look up.
+Note: For ease of scanning, "cities_xy_nospaces.tsv" has underscores in city names: "New_York", etc. This makes it easier for you; otherwise `Scanner.next()` would choke on the spaces. However, when copying that name into your `City` object, you should replace the underscores with spaces. The `String` class has a `replace` method that you can look up.
 
 
 In the given `main` method, under "part B", you are given code that loads the data from "cities_xy_nospaces.tsv" into a list of cities and plots them. 
