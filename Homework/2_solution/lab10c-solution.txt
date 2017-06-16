@@ -1,0 +1,86 @@
+
+
+Part A
+
+Part B
+Top 5 best cities, by salary-after-rent:
+Scottsdale	Pop: 230512.0	Sal after rent: 41237.0
+Alexandria	Pop: 150575.0	Sal after rent: 39899.0
+Bellevue	Pop: 136426.0	Sal after rent: 37763.0
+Naperville	Pop: 146128.0	Sal after rent: 36686.0
+Frisco	Pop: 145035.0	Sal after rent: 34409.0
+
+Part C
+Top 5 best cities, by salary:
+Alexandria	Pop: 150575.0	Sal after rent: 39899.0
+Scottsdale	Pop: 230512.0	Sal after rent: 41237.0
+Bellevue	Pop: 136426.0	Sal after rent: 37763.0
+San Francisco	Pop: 852469.0	Sal after rent: 28666.0
+Naperville	Pop: 146128.0	Sal after rent: 36686.0
+
+Top 5 best cities, by salary-after-rent:
+Scottsdale	Pop: 230512.0	Sal after rent: 41237.0
+Alexandria	Pop: 150575.0	Sal after rent: 39899.0
+Bellevue	Pop: 136426.0	Sal after rent: 37763.0
+Naperville	Pop: 146128.0	Sal after rent: 36686.0
+Frisco	Pop: 145035.0	Sal after rent: 34409.0
+
+
+
+The file SortCities.java is attached.
+
+-------------------------
+Part A (20 points): 
+-------------------------
+
+Make a City class with relevant fields (name, population, etc). Read the CITY_NAMES and CITY_DATA arrays into a list of City objects. 
+
+City should implement toString, so that you can println it nicely.
+
+
+
+-------------------------
+Part B (20 points)
+-------------------------
+
+Have City implement Comparable<City> so that sorting the list sorts the cities according to their "yearly salary after subtracting 12 months of rent".
+
+Top 5 best cities, by salary:
+Brownsville	Pop: 183046.0	Sal after rent: 7052.0
+Hialeah	Pop: 235563.0	Sal after rent: 3758.0
+El Monte	Pop: 116631.0	Sal after rent: 1768.0
+Detroit	Pop: 680250.0	Sal after rent: 7109.0
+Laredo	Pop: 252309.0	Sal after rent: 7522.0
+
+
+-------------------------
+Part C (20 points)
+-------------------------
+
+Write static Comparators for City named SalarySort and PostRentSalarySort to make it easy to sort the list based on different criteria: the raw salary, and the salary after subtracting 12 months of rent.
+
+(See Lec 10c for an example of this.)
+
+
+The code in SortCities.java should guide your code's development.
+
+
+
+=============================================
+(120 points) Robot simulation.
+=============================================
+
+
+The file RobotSimulation.java is provided.
+
+This file runs an animation for a few seconds, as shown in Lecture 10c. A circle and some lines move around.
+
+In this problem you will write code to reproduce the robot simulation video given in Lecture 10c. 
+
+Write classes to embody 3 types of robots:
+
+- Circlebot   just drives in a circle.
+- Chasebot    drives toward a robot. 
+- Fleebot     drives away from a robot.
+
+In the video, the red robot is a Chasebot that chases the green Circlebot. The yellow Fleebot runs away from the Chasebot.

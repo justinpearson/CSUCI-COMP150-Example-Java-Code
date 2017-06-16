@@ -1,0 +1,25 @@
+Hardware store
+
+==============================================
+Part A (20 points): what am I out of?
+Out of wrench
+Out of shovel
+Out of white gas
+==============================================
+Part B (15 points): how much profit did I make?
+Total profit: $212.4
+==============================================
+Part C (15 points): how many hazardous items do I have in stock?
+Have 3 hazardous items in stock.
+
+
+
+City Map
+
+Part A (15 points) LabeledPoint "hello world" show up?
+Part B (15 points) Cities show up?
+Part C (20 points) Itinerary from NY, LA, Chicago, Houston show up?
+
+4-city itinerary length: 1447.2268688505342 pixels.
+Shortest tour: 2965.8049526753593 pixels.
+Done.
