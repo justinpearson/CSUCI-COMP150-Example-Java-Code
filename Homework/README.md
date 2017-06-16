@@ -48,9 +48,13 @@ The code in `SortCities.java` should guide your code's development.
 
 The file `RobotSimulation.java` is provided.
 
-This file runs an animation for a few seconds, as shown in the attached video `robot-sim-start.mov`. A circle and some lines move around.
+This file runs an animation for a few seconds, as shown in the attached video `robot-sim-start.mov`. A circle and some lines move around:
 
-In this problem you will write code to reproduce the attached robot simulation video `robot-simulation.mov`.
+![alt txt](robot-sim-start.gif)
+
+In this problem you will write code to reproduce the attached robot simulation video `robot-simulation.mov`:
+
+![alt txt](robot-simulation.gif)
 
 Write classes to embody 3 types of robots:
 

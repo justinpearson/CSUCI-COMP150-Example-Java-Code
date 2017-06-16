@@ -45,7 +45,7 @@ The file `HardwareStore.java` is provided. You'll edit this file in places marke
 
 The hardware store sells two types of items: regular items and hazardous items. Those classes are defined at the bottom of the file, with some parts filled in already for you. 
 
-At the top of the 'main' method is an example for how the `Item` class is meant to operate. Use this to test your `Item` class. You should write `Item` so that it matches the indicated output below each line. 
+At the top of the `main` method is an example for how the `Item` class is meant to operate. Use this to test your `Item` class. You should write `Item` so that it matches the indicated output below each line. 
 
 Below that, we initialize the store by creating several `Item` and `HazardousItem` objects. Then we sell a bunch of items at random. You should not edit this code.
 
